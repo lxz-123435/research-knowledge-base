@@ -9,10 +9,6 @@
          <lastmod>2026-03-15</lastmod>
     </url>
     <url>
-         <loc>https://lxz-123435.github.io/research-knowledge-base/knowledge-network/</loc>
-         <lastmod>2026-03-15</lastmod>
-    </url>
-    <url>
          <loc>https://lxz-123435.github.io/research-knowledge-base/01_sources/</loc>
          <lastmod>2026-03-15</lastmod>
     </url>
@@ -25,11 +21,23 @@
          <lastmod>2026-03-15</lastmod>
     </url>
     <url>
+         <loc>https://lxz-123435.github.io/research-knowledge-base/01_sources/cases/</loc>
+         <lastmod>2026-03-15</lastmod>
+    </url>
+    <url>
+         <loc>https://lxz-123435.github.io/research-knowledge-base/01_sources/data/</loc>
+         <lastmod>2026-03-15</lastmod>
+    </url>
+    <url>
          <loc>https://lxz-123435.github.io/research-knowledge-base/01_sources/organizations/</loc>
          <lastmod>2026-03-15</lastmod>
     </url>
     <url>
          <loc>https://lxz-123435.github.io/research-knowledge-base/01_sources/papers/</loc>
+         <lastmod>2026-03-15</lastmod>
+    </url>
+    <url>
+         <loc>https://lxz-123435.github.io/research-knowledge-base/01_sources/policy/</loc>
          <lastmod>2026-03-15</lastmod>
     </url>
     <url>
@@ -237,11 +245,19 @@
          <lastmod>2026-03-15</lastmod>
     </url>
     <url>
+         <loc>https://lxz-123435.github.io/research-knowledge-base/03_research/frameworks/</loc>
+         <lastmod>2026-03-15</lastmod>
+    </url>
+    <url>
          <loc>https://lxz-123435.github.io/research-knowledge-base/03_research/frameworks/%E4%BA%A7%E4%B8%9A%E7%94%9F%E6%80%81%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6/</loc>
          <lastmod>2026-03-15</lastmod>
     </url>
     <url>
          <loc>https://lxz-123435.github.io/research-knowledge-base/03_research/frameworks/%E6%8A%80%E6%9C%AF-%E4%BA%A7%E4%B8%9A-%E5%88%B6%E5%BA%A6%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6/</loc>
+         <lastmod>2026-03-15</lastmod>
+    </url>
+    <url>
+         <loc>https://lxz-123435.github.io/research-knowledge-base/03_research/logs/</loc>
          <lastmod>2026-03-15</lastmod>
     </url>
     <url>
@@ -285,6 +301,10 @@
          <lastmod>2026-03-15</lastmod>
     </url>
     <url>
+         <loc>https://lxz-123435.github.io/research-knowledge-base/03_research/topics/</loc>
+         <lastmod>2026-03-15</lastmod>
+    </url>
+    <url>
          <loc>https://lxz-123435.github.io/research-knowledge-base/03_research/topics/%E5%AA%92%E4%BD%93/summary/</loc>
          <lastmod>2026-03-15</lastmod>
     </url>
@@ -306,6 +326,14 @@
     </url>
     <url>
          <loc>https://lxz-123435.github.io/research-knowledge-base/04_outputs/essays/%E8%AF%BB%E4%BA%BA%E7%89%A9%E4%BC%A0%E8%AE%B0-%E5%AE%9E%E8%B4%A8%E4%B8%8A%E6%98%AF%E5%9C%A8%E8%AF%BB%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%9C%A8%E6%97%B6%E4%BB%A3%E4%B8%AD%E7%9A%84%E9%80%89%E6%8B%A9/</loc>
+         <lastmod>2026-03-15</lastmod>
+    </url>
+    <url>
+         <loc>https://lxz-123435.github.io/research-knowledge-base/04_outputs/reports/</loc>
+         <lastmod>2026-03-15</lastmod>
+    </url>
+    <url>
+         <loc>https://lxz-123435.github.io/research-knowledge-base/04_outputs/theory/</loc>
          <lastmod>2026-03-15</lastmod>
     </url>
     <url>
