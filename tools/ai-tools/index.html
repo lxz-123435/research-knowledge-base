@@ -1371,6 +1371,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 手动添加模块
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1595,40 +1606,52 @@
 </code></pre></div>
 <p>进入交互式菜单，选择功能运行。</p>
 <hr />
+<h3 id="7">7. 手动添加模块<a class="headerlink" href="#7" title="Permanent link">&para;</a></h3>
+<p>交互式手动添加内容（不通过AI）</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>python3<span class="w"> </span>scripts/ai_modules/manual_add.py
+</code></pre></div>
+<p><strong>可添加的内容：</strong>
+- 📚 书籍
+- 📝 阅读笔记
+- 💡 概念
+- 🗂️ 分析框架
+- 💭 思想洞见
+- ✍️ 评论随笔</p>
+<hr />
 <h2 id="_2">使用流程<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <h3 id="_3">完整流程示例<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="c1"># 1. 放入新书</span>
-<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>cp<span class="w"> </span>new_book.pdf<span class="w"> </span>inbox/
-<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>
-<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="c1"># 2. AI自动提取</span>
-<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>python3<span class="w"> </span>scripts/ai_modules/ai_extract.py<span class="w"> </span>inbox/new_book.pdf
-<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>
-<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a><span class="c1"># 3. 生成知识图谱</span>
-<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>python3<span class="w"> </span>scripts/ai_modules/knowledge_graph.py
-<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>
-<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a><span class="c1"># 4. 生成研究综述</span>
-<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>python3<span class="w"> </span>scripts/ai_modules/research_summary.py<span class="w"> </span><span class="s2">&quot;媒体与权力&quot;</span>
-<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a>
-<a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a><span class="c1"># 5. 生成写作框架</span>
-<a id="__codelineno-10-14" name="__codelineno-10-14" href="#__codelineno-10-14"></a>python3<span class="w"> </span>scripts/ai_modules/write_template.py<span class="w"> </span><span class="s2">&quot;媒体与权力&quot;</span><span class="w"> </span>论文
-<a id="__codelineno-10-15" name="__codelineno-10-15" href="#__codelineno-10-15"></a>
-<a id="__codelineno-10-16" name="__codelineno-10-16" href="#__codelineno-10-16"></a><span class="c1"># 6. 部署网站</span>
-<a id="__codelineno-10-17" name="__codelineno-10-17" href="#__codelineno-10-17"></a>python3<span class="w"> </span>-m<span class="w"> </span>mkdocs<span class="w"> </span>gh-deploy
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1"># 1. 放入新书</span>
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>cp<span class="w"> </span>new_book.pdf<span class="w"> </span>inbox/
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="c1"># 2. AI自动提取</span>
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>python3<span class="w"> </span>scripts/ai_modules/ai_extract.py<span class="w"> </span>inbox/new_book.pdf
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a><span class="c1"># 3. 生成知识图谱</span>
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>python3<span class="w"> </span>scripts/ai_modules/knowledge_graph.py
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a><span class="c1"># 4. 生成研究综述</span>
+<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>python3<span class="w"> </span>scripts/ai_modules/research_summary.py<span class="w"> </span><span class="s2">&quot;媒体与权力&quot;</span>
+<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>
+<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a><span class="c1"># 5. 生成写作框架</span>
+<a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a>python3<span class="w"> </span>scripts/ai_modules/write_template.py<span class="w"> </span><span class="s2">&quot;媒体与权力&quot;</span><span class="w"> </span>论文
+<a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>
+<a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a><span class="c1"># 6. 部署网站</span>
+<a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a>python3<span class="w"> </span>-m<span class="w"> </span>mkdocs<span class="w"> </span>gh-deploy
 </code></pre></div>
 <hr />
 <h2 id="_4">快速开始<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <h3 id="_5">处理一本新书<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1"># 放入 inbox</span>
-<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>cp<span class="w"> </span>my_book.pdf<span class="w"> </span>~/.openclaw/workspace/research-knowledge-base-mkdocs/inbox/
-<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>
-<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="c1"># 运行提取</span>
-<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>python3<span class="w"> </span>scripts/ai_modules/ai_extract.py<span class="w"> </span>~/.openclaw/workspace/research-knowledge-base-mkdocs/inbox/my_book.pdf
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="c1"># 放入 inbox</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>cp<span class="w"> </span>my_book.pdf<span class="w"> </span>~/.openclaw/workspace/research-knowledge-base-mkdocs/inbox/
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="c1"># 运行提取</span>
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>python3<span class="w"> </span>scripts/ai_modules/ai_extract.py<span class="w"> </span>~/.openclaw/workspace/research-knowledge-base-mkdocs/inbox/my_book.pdf
 </code></pre></div>
 <h3 id="_6">生成知识图谱<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>python3<span class="w"> </span>scripts/ai_modules/knowledge_graph.py
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>python3<span class="w"> </span>scripts/ai_modules/knowledge_graph.py
 </code></pre></div>
 <h3 id="_7">生成写作模板<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>python3<span class="w"> </span>scripts/ai_modules/write_template.py<span class="w"> </span><span class="s2">&quot;你想写的主题&quot;</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>python3<span class="w"> </span>scripts/ai_modules/write_template.py<span class="w"> </span><span class="s2">&quot;你想写的主题&quot;</span>
 </code></pre></div>
 <hr />
 <p><em>持续更新中...</em></p>
