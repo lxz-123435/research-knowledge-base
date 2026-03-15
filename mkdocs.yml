@@ -1,0 +1,58 @@
+site_name: 政策研究资料库
+site_description: 政策研究、理论文章、数据资料与案例库
+site_author: Research Team
+site_url: https://lxz-123435.github.io/research-knowledge-base/
+
+repo_url: https://github.com/lxz-123435/research-knowledge-base
+repo_name: lxz-123435/research-knowledge-base
+
+remote_branch: gh-pages
+
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+
+nav:
+  - 首页: index.md
+  - 理论文章:
+    - theory/index.md
+  - 政策研究:
+    - policy/index.md
+    - policy/国际政策研究.md
+  - 数据资料:
+    - data/index.md
+  - 案例库:
+    - cases/index.md
+  - 写作模板:
+    - templates/index.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+copyright: '政策研究资料库 &copy; 2024'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lxz-123435/research-knowledge-base
