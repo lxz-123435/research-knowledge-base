@@ -536,7 +536,7 @@
   <span class="md-ellipsis">
     
   
-    AI治理
+    AI治理研究
   
 
     
@@ -592,7 +592,7 @@
   <span class="md-ellipsis">
     
   
-    Outward-investment
+    中国对外投资研究
   
 
     
@@ -2000,25 +2000,56 @@
 
 <h1 id="_1">研究工具<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <p>研究过程中使用的工具和方法。</p>
-<h2 id="_2">自动化脚本<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<h3 id="ai">📝 AI分析<a class="headerlink" href="#ai" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="ai_analyze.py">AI资料分析</a> - 自动解析PDF、生成摘要</li>
-</ul>
-<h3 id="_3">🚀 部署<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="deploy.sh">自动部署</a> - 一键部署网站</li>
-</ul>
-<h2 id="_4">使用方法<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<h3 id="pdf">分析PDF文件<a class="headerlink" href="#pdf" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>python3<span class="w"> </span>scripts/ai_analyze.py<span class="w"> </span>/path/to/file.pdf
+<h2 id="_2">📥 工作流程<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="_3">添加新资料<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p><strong>放入待处理文件夹</strong>
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>inbox/
 </code></pre></div>
-<h3 id="_5">批量分析<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>python3<span class="w"> </span>scripts/ai_analyze.py<span class="w"> </span>/path/to/directory/
-</code></pre></div>
-<h3 id="_6">部署网站<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+   把PDF文件放到 <code>inbox/</code> 目录</p>
+</li>
+<li>
+<p><strong>运行部署脚本</strong>
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>bash<span class="w"> </span>scripts/deploy.sh
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>自动处理</strong></p>
+</li>
+<li>读取PDF内容</li>
+<li>生成索引页面</li>
+<li>部署到网站</li>
+<li>移动到 <code>processed/</code></li>
+</ol>
+<h2 id="_4">🤖 自动化脚本<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="_5">部署脚本<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>bash<span class="w"> </span>scripts/deploy.sh
 </code></pre></div>
+<p>功能：
+- 检测 inbox/ 中的新文件
+- 自动处理PDF
+- 构建并部署网站
+- 移动已处理文件到 processed/</p>
+<h3 id="ai">AI分析 (开发中)<a class="headerlink" href="#ai" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>python3<span class="w"> </span>scripts/ai_analyze.py<span class="w"> </span>&lt;文件或目录&gt;
+</code></pre></div>
+<p>功能：
+- 读取PDF内容
+- 生成摘要
+- 自动分类
+- 生成Markdown笔记</p>
+<hr />
+<h2 id="_6">📁 目录结构<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>inbox/          # 新文件放这里
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>processed/      # 处理完的文件在这里
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>scripts/        # 自动化脚本
+</code></pre></div>
+<hr />
+<h2 id="_7">⚙️ 环境配置<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<p>安装依赖：
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</code></pre></div></p>
 <hr />
 <p><em>工欲善其事，必先利其器</em></p>
 
@@ -2096,7 +2127,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "toc.integrate", "tags"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": true, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
