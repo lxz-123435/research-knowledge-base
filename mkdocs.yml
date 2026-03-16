@@ -25,6 +25,9 @@ theme:
 
 plugins:
   - search
+  - bibtex:
+      bib_file: references/references.bib
+      cite_format: square
 
 nav:
   - 首页: index.md
