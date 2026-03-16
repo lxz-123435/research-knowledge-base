@@ -155,3 +155,10 @@
 - [UNCTAD 世界投资报告2024](/02_knowledge/notes/UNCTAD世界投资报告2024/)
 - [UNCTAD 全球投资趋势监测](/02_knowledge/notes/UNCTAD全球投资趋势监测/)
 - [下载PDF](/sources/UNCTAD/2025年6月-UNCTAD-世界投资报告World%20investment%20report2025.pdf)
+
+---
+
+## 参考文献
+
+[@unctad2025]
+
