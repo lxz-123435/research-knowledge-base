@@ -71,6 +71,9 @@ nav:
     - references/index.md
     - references/policy/index.md
     - references/reports/index.md
+
+  - 权威资料:
+    - 权威资料/权威资料.md
   - AI工具:
     - tools/ai-tools/index.md
 
