@@ -63,6 +63,11 @@ nav:
     - 04_outputs/theory/index.md
     - 04_outputs/reports/index.md
     - 04_outputs/essays/index.md
+  
+  - 参考文献:
+    - references/index.md
+    - references/policy/index.md
+    - references/reports/index.md
   - AI工具:
     - tools/ai-tools/index.md
 
