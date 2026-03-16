@@ -160,5 +160,6 @@
 
 ## 参考文献
 
-[@unctad2025]
+[^1]: UNCTAD. (2025). World Investment Report 2025: International Investment in the Digital Economy. Geneva: United Nations.
 
+[^2]: 王靓靓. (2024). 拉丁美洲主要国家战略性矿产资源政策发展趋势与启示. 中国矿业, 33(12), 81.
