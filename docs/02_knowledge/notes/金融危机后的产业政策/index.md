@@ -1,110 +1,91 @@
-# 《金融危机后的产业政策》阅读笔记
+# 金融危机后的产业政策
 
-> IMF Working Paper | 2025年
+> 自动生成的阅读笔记 | 2026-03-16
 
----
+## 核心观点
 
-## ① 核心问题
-
-本文试图回答什么问题？
-
-1. 自2009年金融危机以来，全球产业政策有何变化？
-2. 产业政策的动机是什么？如何演变？
-3. 2020年前后为何出现结构性转折？
-4. 新产业政策与传统产业政策有何不同？
-
----
-
-## ② 核心观点
-
-1. **产业政策复兴**：自金融危机以来，发达经济体和新兴市场经济体广泛采用产业政策
-
-2. **政策工具集中**：主要通过补贴和贸易限制实施产业政策
-
-3. **2020年结构性转折**：2020年前后出现政策加速和新动机
-
-4. **新动机出现**：
-   - 供应链韧性
-   - 国家安全
-   - 地缘政治关切
-
-5. **超越比较优势**：政策支持超出既有比较优势的领域
+Industrial Policy Since the
+Great Financial Crisis
+Simon Evenett, Adam Jakubik, Jaden Kim, Fernando Martín,
+Samuel Pienknagura, Michele Ruta, Sandra Baquie, Yueling
+Huang, and Rafael Machado Parente
+IMF Working Papers describe research in
+progress by the author(s) and are published to
+elicit comments and to encourage debate.
+The views expressed in IMF Working Papers are
+those of the author(s) and do not necessarily
 
 ---
 
-## ③ 关键证据
+## 内容摘要
 
-| 证据类型 | 内容 | 支撑观点 |
-|----------|------|----------|
-| 数据 | NIPO数据集（2009-2023） | 证明政策趋势 |
-| 方法 | 大语言模型识别政策动机 | 证明分析科学性 |
-| 时间序列 | 2009-2023年政策变化 | 证明2020年转折 |
-| 案例 | 各國产业政策案例 | 支撑具体分析 |
-
----
-
-## ④ 逻辑结构
+（PDF前10页内容）
 
 ```
-第一部分：引言
-    - 研究背景
-    - 研究问题
 
-第二部分：方法论
-    - NIPO数据库
-    - LLM方法
-
-第三部分：主要发现
-    - 政策趋势
-    - 政策动机演变
-    - 2020年转折
-
-第四部分：结论与政策含义
+--- 第1页 ---
+Industrial Policy Since the
+Great Financial Crisis
+Simon Evenett, Adam Jakubik, Jaden Kim, Fernando Martín,
+Samuel Pienknagura, Michele Ruta, Sandra Baquie, Yueling
+Huang, and Rafael Machado Parente
+WP/25/222
+IMF Working Papers describe research in
+progress by the author(s) and are published to
+elicit comments and to encourage debate.
+The views expressed in IMF Working Papers are
+those of the author(s) and do not necessarily
+represent the views of the IMF, its Executive Board,
+or IMF management.
+2025
+OCT
+--- 第2页 ---
+© 2025 International Monetary Fund WP/25/222
+IMF Working Paper
+Research and Strategy, Policy, and Review Departments
+Industrial Policy Since the Great Financial Crisis
+Prepared by Simon Evenett, Adam Jakubik, Jaden Kim, Fernando Martín, Samuel Pienknagura, Michele
+Ruta, Sandra Baquie, Yueling Huang, and Rafael Machado Parente*
+Authorized for distribution by Florence Jaumotte and Martin Sommer
+October 2025
+IMF Working Papers describe research in progress by the author(s) and are published to elicit
+comments and to encourage debate. The views expressed in IMF Working Papers are those of the
+author(s) and do not necessarily represent the views of the IMF, its Executive Board, or IMF management.
+ABSTRACT This paper extends the New Industrial Policy Observatory (NIPO) dataset from 2009 to 2023 by
+employing large language model techniques to identify policy motivations. We document widespread industrial
+policy adoption across advanced and emerging market economies since the Great Financial Crisis, which was
+implemented primarily through subsidies and trade restrictions. We identify a structural break around 2020,
+characterized by accelerated policy activity and the emergence of “new industrial policies” motivated by supply
+chain resilience, national security, and geopolitical concerns, in addition to policies focused on competitiveness
+and climate objectives, which were already prevalent in previous years. Policies have targeted dual-use and
+various advanced technology sectors, as well as their upstream inputs, such as critical raw materials and
+minerals. We find that geopolitical risk and tit-for-tat retaliation have played a greater role in driving industrial
+policy after 2020, and that this support extends beyond existing sectors of comparative advantage.
+JEL Classification Numbers: L52; C81; F50
+Keywords: Industrial Policy; Trade Policy; Data
+ajakubik@imf.org, jkim6@imf.org, spienknagura@imf.org,
+Author’s E-Mail Address: mruta@imf.org, sbaquie@imf.org, yhuang5@imf.org
+--- 第3页 ---
+IMF WORKING PAPERS Industrial Policy since the Great Financial Crisis
+WORKING PAPERS
+Industrial Policy Since the Great
+Financial Crisis
+Prepared by Simon Evenett, Adam Jakubik, Jaden Kim, Fernando Martín,
+Samuel Pienknagura, Michele Ruta, Sandra Baquie, Yueling Huang, and
+Rafael Machado Parente
+INTERNATIONAL MONETARY FUND 3
+--- 第4页 ---
+IMF WORKING PAPERS Industrial Policy since the Great Financial Crisis
+Contents
+Introduction ......................
 ```
 
 ---
 
-## ⑤ 方法论
+## 参考文献
 
-- **数据库分析**：新产业政策观察（NIPO）数据库
-- **时间序列分析**：2009-2023年政策变化
-- **大语言模型**：自动识别政策动机
-- **政策分类**：产品类别、政策工具分类
+[^1]: 金融危机后的产业政策
 
 ---
 
-## ⑥ 现实启发
-
-1. **产业政策范式转变**：从效率导向转向安全导向
-
-2. **供应链安全**：各国更关注供应链韧性
-
-3. **地缘政治**：产业政策成为大国博弈工具
-
-4. **技术竞争**：关键技术和原材料成为政策焦点
-
-5. **政策启示**：需要平衡竞争与安全目标
-
----
-
-## 知识关联
-
-### 概念
-
-- 产业政策
-- 供应链韧性
-- 国家安全
-- 比较优势
-
-### 框架
-
-- 产业生态分析框架
-
-### 研究
-
-- 相关研究主题
-
----
-
-*笔记整理：Research Knowledge Base*
-*日期：2026-03-16*
+*自动生成于 2026-03-16*
