@@ -1,0 +1,3 @@
+# Manca G. The EU realpolitik turn in research cooperation with China\[R/OL]. CEIAS Insights, 2025-11-26\[引用日期 2026-01-xx]. [https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/](https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/?utm_source=chatgpt.com "https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/")
+
+Manca G. The EU realpolitik turn in research cooperation with China\[R/OL]. CEIAS Insights, 2025-11-26\[引用日期 2026-01-xx]. [https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/](https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/?utm_source=chatgpt.com "https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/")

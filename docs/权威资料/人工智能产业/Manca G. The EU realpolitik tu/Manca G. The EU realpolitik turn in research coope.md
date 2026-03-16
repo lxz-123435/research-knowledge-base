@@ -1,0 +1,7 @@
+# Manca G. The EU realpolitik turn in research cooperation with China\[EB/OL]. 中欧亚洲研究中心, 2025-11-26. [https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/](https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/ "https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/").  [oai\_citation:1‡CEIAS](https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/?utm_source=chatgpt.com "oai_citation:1‡CEIAS")
+
+Manca G. The EU realpolitik turn in research cooperation with China\[EB/OL]. 中欧亚洲研究中心, 2025-11-26. [https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/](https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/ "https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/").  [oai\_citation:1‡CEIAS](https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/?utm_source=chatgpt.com "oai_citation:1‡CEIAS")
+
+[https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/?utm\_source=chatgpt.com](https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/?utm_source=chatgpt.com "https://ceias.eu/the-eu-realpolitik-turn-in-research-cooperation-with-china/?utm_source=chatgpt.com")
+
+欧盟2026-2027年度“地平线欧洲”计划（总额达935亿欧元）的新草案提议正式禁止中国机构参与大多数研发创新项目。具体而言，第22条第6款规定，除非获得明确许可，否则中国实体无资格参与所有创新行动。这项禁令适用于集群1（健康）、集群3（公民安全与社会）和集群4（数字、工业和太空）。此外，该禁令还适用于在人工智能、半导体和量子技术等敏感领域“直接或间接受中国机构控制”的欧盟实体。（民用技术和军用技术之间的界限已基本消失。如今，人工智能既应用于消费电子产品，也应用于自主武器）

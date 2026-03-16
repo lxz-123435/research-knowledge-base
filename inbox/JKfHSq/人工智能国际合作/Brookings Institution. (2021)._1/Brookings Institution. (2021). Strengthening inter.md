@@ -1,0 +1,5 @@
+# Brookings Institution. (2021). Strengthening international cooperation on artificial intelligence. Washington, DC: The Brookings Institution
+
+At the same time, international cooperation should not be interpreted as complete global harmonization: countries legitimately differ in national strategic priorities, legal traditions, economic structures, demography, and geography. International collaboration can nonetheless create the level playing field that would enable countries to engage in fruitful “co-opetition” in AI: agreeing on basic principles and when possible seeking joint outcomes, but also competing for the best solutions to be scaled up at the global level. Robust cooperation based on common principles and values is a foundation for successful national development of AI.
+
+与此同时，国际合作不应被解读为**全面的全球统一化**：各国在国家战略优先事项、法律传统、经济结构、人口状况以及地理条件等方面的差异具有合理性。尽管如此，国际协作仍可打造一个**公平竞争的环境**，助力各国在人工智能领域开展富有成效的 “合作式竞争”—— 即在基本原则上达成共识，尽可能争取协同成果，同时也为开发出能在全球范围内推广的最优解决方案展开竞争。基于共同原则与价值观的坚实合作，是各国人工智能实现成功发展的基石。
