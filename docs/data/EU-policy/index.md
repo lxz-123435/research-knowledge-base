@@ -1,0 +1,4 @@
+- [欧盟-2025年2月，欧盟正式发布了《清洁工业协议》（Clean Industrial Deal）.pdf](欧盟-2025年2月，欧盟正式发布了《清洁工业协议》（Clean Industrial Deal）.pdf)
+- [欧盟-2025年5月，欧洲议会通过了就《欧盟外商直接投资审查条例》提出的《修订草案》.pdf](欧盟-2025年5月，欧洲议会通过了就《欧盟外商直接投资审查条例》提出的《修订草案》.pdf)
+- [欧盟-欧洲绿色债券标准——支持转型——金融.pdf](欧盟-欧洲绿色债券标准——支持转型——金融.pdf)
+- [欧盟实施《绿色协议工业计划》（The Green Deal Industrial Plan）.pdf](欧盟实施《绿色协议工业计划》（The Green Deal Industrial Plan）.pdf)

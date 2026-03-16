@@ -1,5 +1,5 @@
-site_name: 政策研究资料库
-site_description: 政策研究、理论文章、数据资料与案例库
+site_name: 研究知识库
+site_description: 四层研究生产系统：资料 → 知识 → 研究 → 成果
 site_author: Research Team
 site_url: https://lxz-123435.github.io/research-knowledge-base/
 
@@ -7,7 +7,6 @@ repo_url: https://github.com/lxz-123435/research-knowledge-base
 repo_name: lxz-123435/research-knowledge-base
 
 remote_branch: gh-pages
-
 
 theme:
   name: material
@@ -22,55 +21,50 @@ theme:
     - search.suggest
     - search.highlight
     - toc.integrate
+    - tags
+
+plugins:
+  - search
 
 nav:
   - 首页: index.md
-  - 研究主题:
-    - research/index.md
-    - research/AI-governance/index.md
-    - research/Data-assets/index.md
-    - research/Outward-investment/index.md
-    - research/Computing-power/index.md
-    - research/Critical-minerals/index.md
-    - research/Green-finance/index.md
-  - 资料来源:
-    - sources/index.md
-  - 阅读笔记:
-    - notes/index.md
-    - notes/reading-notes/index.md
-    - notes/frameworks/index.md
-    - notes/ideas/index.md
-  - 理论文章:
-    - theory/achievement-view/index.md
-    - theory/【理响中国】全要素生产率提升：发展新质生产力的核心标志/index.md
-    - theory/【理响中国】如何树牢正确政绩观/index.md
-    - theory/以正确政绩观开创中国式现代化新局面/index.md
-    - theory/发展新质生产力的重大意义/index.md
-    - theory/科学把握经济高质量发展的内涵、特点和路径/index.md
-    - theory/聚焦推动高质量发展-加快发展新质生产力/index.md
-    - theory/高质量发展要有四"好"/index.md
-    - theory/树牢以人民中心的政绩观/index.md
-    - theory/树牢正确权力观政绩观事业观/index.md
-    - theory/树立和践行正确政绩观/index.md
-    - theory/新时代领导干部应有什么样的政绩观/index.md
-    - theory/领导干部要树立和践行正确政绩观/index.md
-    - theory/正确政绩观究竟来自哪里？/index.md
-    - theory/正确的政绩观体现在哪里/index.md
-    - theory/牢固树立正确政绩观（治理之道）/index.md
-    - theory/用六面"镜子"照出政绩观的"样子"/index.md
-    - theory/擦亮政绩观这面镜子/index.md
-    - theory/【光明論壇】为人民出政绩-以实于出政绩/index.md
-    - theory/【理论学术动态导读】正确政绩观是推动高质量发展的思想法宝/index.md
-    - theory/《树牢正确政绩观》出版发行/index.md
-  - 政策研究:
-    - policy/index.md
-    - policy/国际政策研究.md
-  - 数据资料:
-    - data/index.md
-  - 案例库:
-    - cases/index.md
-  - 写作模板:
-    - templates/index.md
+  
+  - 01 资料素材:
+    - 01_sources/index.md
+    - 01_sources/books/index.md
+    - 01_sources/papers/index.md
+    - 01_sources/reports/index.md
+    - 01_sources/organizations/index.md
+    - 01_sources/policy/index.md
+    - 01_sources/data/index.md
+    - 01_sources/cases/index.md
+    - 01_sources/reading_queue/index.md
+  
+  - 02 知识管理:
+    - 02_knowledge/index.md
+    - 02_knowledge/notes/index.md
+    - 02_knowledge/concepts/index.md
+    - 02_knowledge/frameworks/index.md
+    - 02_knowledge/insights/index.md
+  
+  - 03 研究生产:
+    - 03_research/index.md
+    - 03_research/topics/index.md
+    - 03_research/projects/index.md
+    - 03_research/drafts/index.md
+    - 03_research/frameworks/index.md
+    - 03_research/questions/index.md
+    - 03_research/models/index.md
+    - 03_research/connections/index.md
+    - 03_research/logs/index.md
+  
+  - 04 成果产出:
+    - 04_outputs/index.md
+    - 04_outputs/theory/index.md
+    - 04_outputs/reports/index.md
+    - 04_outputs/essays/index.md
+  - AI工具:
+    - tools/ai-tools/index.md
 
 markdown_extensions:
   - attr_list
@@ -86,9 +80,10 @@ markdown_extensions:
   - toc:
       permalink: true
 
-copyright: '政策研究资料库 &copy; 2024'
+copyright: '研究知识库 &copy; 2026'
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/lxz-123435/research-knowledge-base
+  tags: true

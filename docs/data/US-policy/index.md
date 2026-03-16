@@ -1,0 +1,4 @@
+- [美国-2025年2月21日，美国总统特朗普签署《美国优先投资政策》备忘录.pdf](美国-2025年2月21日，美国总统特朗普签署《美国优先投资政策》备忘录.pdf)
+- [美国-2025年3月，美国贸易代表办公室（USTR）发布《特朗普总统2025贸易政策议程》（U.S. Trade Representative Announces 2025 Trade Policy Agenda）.pdf](美国-2025年3月，美国贸易代表办公室（USTR）发布《特朗普总统2025贸易政策议程》（U.S. Trade Representative Announces 2025 Trade Policy Agenda）.pdf)
+- [美国《通胀削减法案》（IRA）.pdf](美国《通胀削减法案》（IRA）.pdf)
+- [美国联邦储备理事会（FRB）2024年第四季度汇率.pdf](美国联邦储备理事会（FRB）2024年第四季度汇率.pdf)
