@@ -1,0 +1,1985 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="四层研究生产系统：资料 → 知识 → 研究 → 成果">
+      
+      
+        <meta name="author" content="Research Team">
+      
+      
+        <link rel="canonical" href="https://lxz-123435.github.io/research-knowledge-base/01_sources/papers/%E6%9D%83%E5%A8%81%E8%B5%84%E6%96%99/%E7%94%A8%E8%AF%8D%E6%96%9F%E9%85%8C/%E5%9F%BA%E7%A1%80%E6%80%A7%E6%8A%80%E6%9C%AF/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+    
+    
+      
+        <title>基础性技术 - 研究知识库</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../../../.." title="研究知识库" class="md-header__button md-logo" aria-label="研究知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            研究知识库
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              基础性技术
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/lxz-123435/research-knowledge-base" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    lxz-123435/research-knowledge-base
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../" class="md-tabs__link">
+          
+  
+  
+  01 资料素材
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../02_knowledge/" class="md-tabs__link">
+          
+  
+  
+  02 知识管理
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../03_research/" class="md-tabs__link">
+          
+  
+  
+  03 研究生产
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../04_outputs/" class="md-tabs__link">
+          
+  
+  
+  04 成果产出
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../references/" class="md-tabs__link">
+          
+  
+  
+  参考文献
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../%E6%9D%83%E5%A8%81%E8%B5%84%E6%96%99/%E6%9D%83%E5%A8%81%E8%B5%84%E6%96%99/" class="md-tabs__link">
+          
+  
+  
+  权威资料
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../tools/ai-tools/" class="md-tabs__link">
+          
+  
+  
+  AI工具
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="研究知识库" class="md-nav__button md-logo" aria-label="研究知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    研究知识库
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/lxz-123435/research-knowledge-base" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    lxz-123435/research-knowledge-base
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 资料素材
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 资料素材
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 资料素材
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    书籍资料
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    学术论文库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    行业报告库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../organizations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    研究机构库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    政策文件库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数据资料库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../cases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    案例资料库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../reading_queue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    待读队列
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 知识管理
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 知识管理
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../02_knowledge/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    知识管理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../02_knowledge/notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    阅读笔记
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../02_knowledge/concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    概念库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../02_knowledge/frameworks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    分析框架
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../02_knowledge/insights/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    思想洞见
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 研究生产
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    03 研究生产
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../03_research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    研究生产
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../03_research/topics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    研究主题库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../03_research/projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    研究项目库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../03_research/drafts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    研究草稿
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../03_research/frameworks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03研究框架库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../03_research/questions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    研究问题库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../03_research/models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    分析模型库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../03_research/connections/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    知识连接
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../03_research/logs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    研究日志
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 成果产出
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    04 成果产出
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../04_outputs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    成果产出
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../04_outputs/theory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    论文库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../04_outputs/reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    报告库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../04_outputs/essays/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    评论随笔
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    参考文献
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    参考文献
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    参考文献库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../references/policy/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../references/reports/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    权威资料
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    权威资料
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../%E6%9D%83%E5%A8%81%E8%B5%84%E6%96%99/%E6%9D%83%E5%A8%81%E8%B5%84%E6%96%99/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    权威资料
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI工具
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI工具
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../tools/ai-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI 自动化工具
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="_1">海洋强国目标下我国海洋装备关键基础性技术发展战略研究丨中国工程科学<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>原创 《中国工程科学》 [中国工程科学](javascript:void$0$;) <em>2024年12月13日 12:16</em> <em>北京</em></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_gif/ibdH4AklSCORo46Kyn2v6URTdicxMWwpv8gQxOdyxldIjbXvnrItaKLTtICbzSMaicpRsHTp1f6lAE9DQ6WibicLfxg/640?wx_fmt=gif\&amp;from=appmsg\&amp;tp=wxpic\&amp;wxfrom=10005\&amp;wx_lazy=1#imgIndex=0" /></p>
+<p><strong>本文选自中国工程院院刊《中国工程科学》2024年第5期</strong></p>
+<p>作者：蔡鹏，柳存根，林忠钦，卢明剑，付强，董胜，张旭光，刘曙光，冯妮，杨淑涵，张海霞</p>
+<p>来源：海洋强国目标下我国海洋装备关键基础性技术发展战略研究[J].中国工程科学,2024,26(5):91-103.</p>
+<p><strong>编者按</strong></p>
+<p>近年来，我国海洋装备科技发展取得重大进展，在船舶制造、海洋资源开发、深海与极地科考等领域，实现了由“跟跑”到“并跑”再到部分“领跑”的转变。需要指出的是，我国海洋装备的关键基础性技术仍显薄弱，与国际先进水平相比仍存在一定差距，亟需加快攻关，从根本上解决“从0到1”的问题，支撑海洋装备产业高质量发展，为海洋强国建设打下坚实基础。</p>
+<p>中国工程院林忠钦院士研究团队在中国工程院院刊《中国工程科学》2024年第5期发表《海洋强国目标下我国海洋装备关键基础性技术发展战略研究》一文。文章在分析我国海洋装备发展需求的基础上，总结了我国海洋装备关键基础性技术的内涵和凝练路径，从海洋运载装备、海洋资源开发装备、海洋科考装备三方面介绍了全球海洋装备的科技前沿和发展趋势，梳理了我国海洋装备技术的发展现状及存在的主要问题，筛选出对海洋装备产业发展影响较大的10项关键基础性技术。面向海洋强国建设，提出了海洋装备关键基础性技术的发展目标、发展路线图和重点任务，并从提升海洋装备基础性技术研究定位和加强技术创新顶层设计、推进海洋装备基础性技术创新多维度协作体系建设、推动我国主导的海洋技术与装备走向国际等方面提出了保障措施。</p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_jpg/ibdH4AklSCOTxIETiaK9z27DrYQO7IgI9NM3Hc8uDgGpda8rdc4uWdsBSQGhKxW0Hict5IQ6jiazQHLkmrDTpqhOYA/640?wx_fmt=jpeg\&amp;from=appmsg\&amp;tp=wxpic\&amp;wxfrom=10005\&amp;wx_lazy=1#imgIndex=1" /></p>
+<p><strong>一、前言</strong></p>
+<p><strong>党的二十大报告提出，加快建设海洋强国。建设海洋强国，需加快海洋科技创新步伐。</strong> 近年来，我国海洋装备科技发展取得重大进展，在船舶制造领域，已成为世界造船大国，在超大型集装箱船、大型液化天然气运输船、豪华邮轮、航母工程等方面取得了标志性成果；在海洋资源开发领域，逐步形成了从浅海到深海、从勘探钻井到开采生产和作业运输的海洋工程装备研制能力；在深海与极地科考领域，自主建造了具有世界先进水平的“奋斗者号”“蛟龙号”等载人潜水器、“雪龙2号”破冰船等，实现了由“跟跑”到“并跑”再到部分“领跑”的转变。<strong>海洋装备的科技进步对我国海洋强国建设起到了重要的推动作用。</strong></p>
+<p>我国海洋装备科技创新水平与发达国家相比，仍存在较大差距，存在海洋装备产业处于全球供应链和价值链的中低端，高端装备的核心技术和关键设备依赖进口，在国际标准、规范制定方面缺乏话语权，自主创新能力不强等问题。实际上，我国与国际先进水平差距较大的根本原因在于基础性技术发展较为滞后。应对国际科技竞争、实现高水平自立自强，推动构建新发展格局、实现高质量发展，迫切需要我们加强基础研究，从源头和底层解决关键技术问题。<strong>因此，需大力发展海洋装备基础性技术，从根本上解决“从0到1”的问题，支撑海洋装备产业高质量发展，为海洋强国建设打下坚实基础。</strong></p>
+<p><strong>本文依据国家重大发展需求和产业趋势方向，面向未来产业需求和社会需求，梳理海洋运载装备、海洋资源开发装备（以海洋油气资源开发装备技术为主）、海洋科考装备3个海洋装备重要领域的技术发展现状及存在的问题，凝练在海洋装备领域被广泛使用、具备源头性的关键基础性技术</strong>，并提出我国面向2030年、2035年、2050年的海洋装备关键基础性技术的发展目标、重点任务和保障措施。</p>
+<p><strong>二、海洋强国目标下海洋装备的发展需求和关键基础性技术的内涵</strong></p>
+<p>（一）海洋强国目标下海洋装备的发展需求</p>
+<p><strong>当前，我国正处于从海洋大国向海洋强国转变的关键时期。加快海洋强国建设步伐，必须壮大和筑牢海洋装备。</strong> 党的十八大首次完整明确地提出了建设海洋强国的具体内涵，强调提高海洋资源开发能力，发展海洋经济，保护海洋生态环境，坚决维护国家海洋权益。<strong>对接海洋强国战略需求，海洋装备发展需重点培育和壮大海洋运载装备、海洋资源开发装备以及海洋科考装备三大领域。</strong></p>
+<ol>
+<li>支撑海洋经济发展的需要</li>
+</ol>
+<p>全球90%的贸易是通过海运完成的，海洋运载装备是从事海上运输、发展海洋经济和保障海洋安全必不可少的工具，产业链条长且复杂，产业带动性强。尽管我国的船舶总装建造能力已覆盖所有高端产品，但<strong>在绿色动力、智能制造、智能化船舶等技术方面仍有不足，亟需提升产品绿色化、智能化、高端化水平，提高产业链的整体质量效益。</strong></p>
+<ol>
+<li>提升海洋资源开发能力的需要</li>
+</ol>
+<p>能源资源是关系国家发展的全局性、战略性问题，海洋能源资源发展将成为统筹能源资源安全的关键增量。我国海洋油气开发技术和装备已跃居世界第二梯队，但<strong>在高端装备及核心零部件，超深水勘探开发关键技术能力，数字化、智能化、绿色化技术储备等方面仍有较大需求。</strong></p>
+<ol>
+<li>保护海洋生态环境、维护国家海洋权益的需要</li>
+</ol>
+<p>目前，人类对海洋的探索仅有5%，海洋科考装备是人类关心海洋、认识海洋、经略海洋的重要基础。我国已组建国家海洋调查船队和海洋观测系统，拥有全海深下潜能力的潜水器，但仍<strong>需满足近海全海域实时立体考察观测监测、深海海域实现长期驻留科考和原位试验、极地海域各区域考察观测、针对局部海域开展精细化考察等需求。</strong></p>
+<p>（二）海洋装备关键基础性技术的内涵</p>
+<p><strong>基础性技术的凝练，一是需要把世界科技前沿同国家重大战略需求和经济社会发展目标相结合；二是需要通过体系化梳理找到源头性技术；三是既要关注探索性基础研究，也要关注市场导向的应用性基础研究。</strong>《科学技术研究项目评价通则》（GB/T 22900—2009）将科学技术研究分为基础研究、应用研究和开发研究。其中，基础研究和应用研究是开发研究的重要支撑，在科学技术研究中处于基础性地位。从竞争发展视角来看，根据技术的水平不同，可以分成补缺型、追赶型、竞争型和前瞻型技术4类。补缺型技术指发达国家较为先进、但我国缺失或基础薄弱、“卡脖子”风险大的技术；追赶型技术指我国在该技术领域已经具备一定基础，但与国际先进水平仍然有差距的技术；竞争型技术指我国已经取得很大进步，能够参与国际竞争、“领跑”型的技术；前瞻型技术指具有颠覆性的、有望重塑行业或产业竞争格局的技术。其中，补缺型技术有助于填补我国技术空白、保障国家产业链和供应链安全，前瞻型技术有助于我国催生新的产业和市场、在国际竞争中形成“不对称优势”，都是解决“从0到1”问题的技术，应予以重点关注。</p>
+<p>结合以上分析，<strong>海洋装备关键基础性技术是指对接海洋强国发展需求和产业趋势方向，在海洋装备领域被广泛使用的共性、源头性技术，</strong> 主要包括国际上比较成熟但我国尚未掌握的补缺型基础性技术和能够助力产业实现跨越式发展的前瞻型基础性技术。<strong>我国海洋装备关键基础性技术的凝练过程如图1所示。</strong></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/ibdH4AklSCOTxIETiaK9z27DrYQO7IgI9NnruDCmEWD9Lnkpn0KW7orCib3EwSNsJvgr6qQr9nCY1JHqgZftCEKjg/640?wx_fmt=png\&amp;from=appmsg\&amp;tp=wxpic\&amp;wxfrom=10005\&amp;wx_lazy=1#imgIndex=2" /></p>
+<p>图1　海洋装备关键基础性技术的凝练过程</p>
+<p><strong>三、世界海洋装备科技前沿与发展趋势</strong></p>
+<p>（一）海洋运载装备的发展重点聚焦于绿色船舶和智能船舶</p>
+<p><strong>绿色船舶是国际节能环保发展在船舶制造和航运业的具体体现，重点关注氢、氨、液化天然气（LNG）、甲醇等多种替代燃料的应用。</strong> 欧洲是绿色船舶领域的引领者，在氢、氨等零碳燃料船舶和LNG等低碳燃料动力船的技术研发与标准制定方面占据主导地位。日本积极引入船舶动力替代燃料，在布局氨燃料产业链方面走在世界前列；韩国在LNG动力船方面发展较为成熟且处于国际先进水平。</p>
+<p><strong>在智能船舶方面，自主航行船舶技术逐渐成为许多国家重点关注的关键技术。</strong> 韩国已经实现了从船舶出港到航行、返航、靠岸的完全自主航行；日本推进的完全自主船舶未来设计项目旨在实现由无人海上自主水面船舶为支撑的国内沿海航运业务。欧洲更关注无人化和少人化的操作实践，挪威Vard船厂在2021年交付了世界首艘纯电动自主航行集装箱船“Yara Birkeland号”。</p>
+<p>（二）海洋资源开发装备向深远海不断拓展</p>
+<p><strong>在勘探和钻井装备方面，整体向深远海、智能化、海底化、多功能组合化发展。</strong> 海洋低频、可控、多源（≥3源）震源控制技术，高密度、宽方位、宽频、四维和混采采集技术，深水／超深水双检多分量拖缆和多波多分量海底地震装备、光纤地震检波器、微机电系统（MEMS）地震检波器采集设备等得到快速发展。</p>
+<p>在生产装备方面，欧洲和美国在单立柱平台（SPAR）、张力腿平台（TLP）、浮式生产油轮（FPSO）、半潜式生产平台（SEMI）等超深水浮式装备的设计建造及应用技术方面，浮式液化天然气储卸装置（FLNG）的船体设计、生产处理、液货存储、外输卸载等技术方面处于领先水平。<strong>随着海上油气开发逐步走向深远海，全球主要的油气公司注重加大研发水下生产设备的投入以适用于水下高压环境。此外，海洋资源开发装备也在持续向低碳化、智能化方向转变。</strong></p>
+<p>（三）海洋科考装备呈现无人、智能、绿色、协同的发展特点</p>
+<p><strong>在海洋传感器方面，</strong> <strong>目前世界上从事传感器研制的生产单位已超过6500家</strong>，其中美国在世界海洋传感器领域处于领导地位。未来，海洋传感器将朝多参数化、小型化、自主化、智能化、模块化等方向发展。</p>
+<p><strong>在深海潜水器方面，</strong> <strong>美国、中国、俄罗斯、日本、法国等国家的自主研发能力处于全球领先地位</strong>，各国研发的多款潜水器已实现全海深作业能力，但目前仅有美国和中国拥有万米级载人潜水器。</p>
+<p><strong>在海洋科考船方面，国际海洋科考船着眼于提高耐波性、舒适性等性能</strong>，不断提升绿色化水平。德国的“Atair Ⅱ号”是全球首艘以LNG为燃料的科考船。瑞典的“Svea号”科考船使用的是可再生燃料，已满足国际海洋勘察理事会发布的水下辐射噪声标准。</p>
+<p><strong>在海洋观测系统方面，国际上尤其是美国和欧盟，已经基本形成了对全球上层海洋大尺度信息的实时获取能力。</strong> 由美国国家海洋和大气管理局以及国际机构合作建立的热带海洋大气观测网（TAO）覆盖太平洋赤道地区，使用浮标、浮式温度、盐度传感器等设备测量海洋表面和深层的物理与气象参数（如海水温度、盐度、气温、风速等），并通过卫星传输回地面进行处理和分析；由全球30多个国家和地区组成的ARGO海洋观测网覆盖全球海洋，通过全球范围内的浮标网络使用一系列浮标和深潜器来收集海洋温度、盐度、压力等物理参数，获得的数据通过卫星传输回地面，提供连续的、实时的、三维的海洋温度和盐度数据；由美国国家科学基金会资助建立的海洋气候变化观测网，覆盖北极、南极和美国海岸等地区，使用一系列浮标、潜水器、浮式设备来收集海洋物理、化学和生物参数，相关数据可供研究气候变化和海洋生态系统等方面的问题。</p>
+<p><strong>四、我国海洋装备技术发展现状与存在的问题</strong></p>
+<p>（一）海洋运载装备技术</p>
+<ol>
+<li>发展现状</li>
+</ol>
+<p><strong>我国船舶总装建造能力几乎覆盖所有高端产品，配套设备的国产化程度逐步提高。</strong> 我国已经具备散货船、油船、集装箱船三大主流船全系列船型的研发设计建造能力，并在超大型集装箱船、LNG船、豪华邮轮等高端船型方面取得突破。在配套设备方面，低／中／高速机、大型推进器、甲板机械、压载水处理系统、电气系统等重要设备已实现自主配套，相应关键技术取得重要突破。</p>
+<p><strong>顺应全球航运绿色、低碳化的发展趋势，我国加快布局绿色动力船舶的研制。</strong> 我国稳步推进国内航运温室气体减排，鼓励LNG、甲醇、氨、氢、电力等低碳／零碳动力船舶的技术攻关。近年来，我国在LNG燃料发动机方面有所突破，已推出多款船用LNG燃料中高速发动机，正处于市场推广阶段。此外，我国船用锂电池已实现批量装船应用，达到国际先进水平，目前已投入运营的纯电动船有近百艘。</p>
+<p><strong>积极推动智能船舶发展，在船舶辅助决策方面已取得进展。智能船舶是船舶产业发展的新高地。</strong> 目前，我国智能船舶的研发主要聚焦于总体解决方案和辅助决策系统，开展了智能船舶示范工程，但尚未实现商业化应用。我国首艘自主航行的集装箱船“智飞号”，在航行环境智能感知认知、自主循迹、航线自主规划、智能避碰、自动靠离泊和远程遥控驾驶等方面取得进展；2022年，全球首艘智能型无人系统母船“珠海云号”实现态势感知、决策控制、设备自主等技术的实船应用。</p>
+<ol>
+<li>存在的主要问题</li>
+</ol>
+<p><strong>一是绿色动力技术研究不足，尚未形成有竞争力的产品。</strong> 我国船舶产业绿色转型尚处于起步阶段，相关技术水平与国外相比仍存在较大差距。我国在船用低碳／零碳发动机领域的研发起步相对较晚，样机开发与集成技术成熟度落后于发达国家。低碳／零碳燃料喷射核心部件存在小流量、寿命短的问题，储供系统在燃料精确控制、自适应反馈方面与国外相比还有很大差距。此外，灵活燃料发动机在不同类型燃料的适应性和使用效率方面相对国外落后。</p>
+<p><strong>二是智能化船舶技术发展缓慢，制约了智能船舶产业的发展。</strong> 我国智能船舶发展的基础薄弱，还未形成完善的智能船舶技术体系。目前，智能船舶发展亟需解决的问题有：体系构架标准不统一、数据集成水平低、船岸协同数据体系与标准尚未完善，船舶岸基远程驾控、自主航行、船岸协同智能运维等一批关键技术尚未突破，缺乏面向智能船舶安全可靠性高、多领域融合的复杂设备系统研发的试验方法和手段。</p>
+<p><strong>三是智能制造技术能力不足，影响了产业转型的升级进程。</strong> 目前，我国注重智能制造技术的追踪和引进，而基础研究能力相对不足，缺乏原始创新。长期制约我国产业发展的部分智能制造技术，如数字化工艺、智能装备、工业软件、智能制造系统解决方案等仍然亟需突破。尤其是我国船舶工业软件90%以上采用国外的软件产品，国内工业软件标准缺失，国产工业软件与制造业融合程度不高，工业软件对制造业模式的变革创新作用尚未发挥。</p>
+<p>（二）海洋资源开发装备技术</p>
+<ol>
+<li>发展现状</li>
+</ol>
+<p><strong>我国海洋油气开发技术和装备总体处于世界第二梯队，自主化和国产化程度逐步提高。</strong> 近10年来，我国与韩国、新加坡在高端海工装备模块建造与总装制造领域形成三足鼎立之势。在勘探装备方面，我国持续推进12缆深水／超深水物探船“海洋石油721”的应用升级，首套海洋地震勘探海底节点（OBN）装备在渤海海域顺利完成最大水深700 m海试；在钻井装备方面，突破了水下采油树关键技术并完成了500 m水深工程示范；在生产装备方面，部分关键设备已完成国产工程样机研制并通过第三方验证，相关技术指标达到国际同等产品水平。</p>
+<p><strong>我国深水油气开发装备技术不断发展</strong>，已实现从300 m水深到1500 m水深的跨越。2021年，建成全球首座10万吨级深水半潜式生产储油平台“深海一号”，用于陵水17-2深水自营大气田，作业水深近1500 m。</p>
+<p><strong>油气开发智能化、绿色化技术取得一定进展。</strong> 我国在海上平台无人化、少人化的基础上，加快推进智能油田试点建设和海上油田的低碳化转型。秦皇岛32-6智能油田于2021年10月全面建成投用，应用云计算、大数据、物联网、人工智能、北斗卫星导航等技术为传统油田赋能，实现流程再造，建设现代化、数字化、智能化的新型油田。2023年5月，我国首座深远海浮式风电平台“海油观澜号”成功并入文昌油田群电网，正式为海上油气田输送“绿电”，为未来海上油气田高比例利用新能源电力提供依据。</p>
+<ol>
+<li>存在的主要问题</li>
+</ol>
+<p><strong>一是高端装备及核心零部件主要依赖进口，自主可控能力不足。</strong> 目前，我国自主可控的海洋油气开发装备以中低端装备为主，高端核心设备仍主要依赖进口。在勘探装备方面，“两宽两高”（宽方位、宽频，高密度、高效）、MEMS芯片、混采技术等需进一步突破；深水钻井平台的大功率顶驱、钻井绞车、升沉补偿装置、隔水管张紧装置、控制系统、隔水管、防喷器等关键设备均需要进口。在生产装备方面，水下压缩机、水下分离器、深水／超深水防喷器等前沿设备仍然处于研发阶段，距离国产化应用还有较长的距离。</p>
+<p><strong>二是超深水勘探开发技术能力不足，制约了深水油气开采向3000 m深迈进。</strong> 目前，我国深水开发装备可适应水深1500 m左右，回接距离约为80 km；距离国外近3000 m的开发水深、近150 km回接距离相比仍差距较大。我国在3000米级超深水油气勘探开发方面还处于起步阶段，与国际先进水平存在较大差距，亟需加强勘探、钻井、开发生产等装备的关键技术研究和攻关，形成一套适应我国海域特点和需求的超深水油气勘探开发技术体系。特别需要加强FLNG、深水八角形浮式钻井生产储油平台（FDPSO）等新型浮式生产装置的研究投入。</p>
+<p><strong>三是海洋可再生能源开发和利用不够充分，技术储备不足以支撑产业进一步发展。</strong> 虽然我国在海上风电领域发展迅速，但其他海洋可再生能源的开发利用进展缓慢。近年来，随着氢能利用在各国能源战略地位中不断提升，海上风电制氢发展前景广阔，但目前海上风电制氢仍以试验性示范项目为主，尚未商业化，制约了该产业的发展。</p>
+<p>（三）海洋科考装备技术</p>
+<ol>
+<li>发展现状</li>
+</ol>
+<p><strong>近年来，我国海洋科考装备能力大幅提升，部分达到国际领先水平。我国自主研发的海洋科考装备接连取得突破，部分海洋科考装备进入世界先进行列。</strong> 在科考船方面，我国从20世纪60年代以来逐步发展，从“跟跑”到“并跑”，部分技术指标“领跑”，目前已拥有两艘“雪龙号”系列破冰科考船、“向阳红号”“大洋号”等系列综合海洋科考船以及全球首艘智能型无人系统科考母船“珠海云号”等。在潜水器方面，我国载人深潜技术总体已处于国际前沿。2020年，“奋斗者号”下潜深度约为11 000 m，国产化率达96.5%。</p>
+<p><strong>我国海洋传感器、潜标、浮标等关键设备的国产化率不断提升。</strong> 在海洋传感器方面，我国物理海洋传感器技术得到了快速发展，突破了高精度温度盐度深度探测仪（CTD）测量、海流剖面测量及海面流场测量等关键技术，初步实现了产品化。在浮标方面，平台基础技术，观测数据的长期连续性、准确性、稳定性，检测传感新方法等取得了一系列技术突破。在潜标方面，设计建模、布放深度、系统回收和可靠性等已经达到世界先进水平。</p>
+<p><strong>我国已初步建立海洋观测系统，在海洋防灾减灾、海洋科学研究等领域中发挥了重要作用。</strong> 我国海洋立体观测系统经过多年发展，已初步形成了包括天基观测、海气界面观测、海底观测网在内的基本框架。在天基观测方面，我国自主研制了可覆盖海洋水色、海洋动力、海洋监视和监测的遥感卫星系统，逐步形成了多种观测技术优化组合的全球海洋观测与数据获取能力；在海气界面观测方面，我国积极整合国家观测能力，深度参与国际ARGO计划，初步开展全球重点海区观测；在海底观测网方面，我国建设东海／南海海底观测系统，为深入认识海洋环境提供了长期连续观测数据和原位科学实验平台。</p>
+<ol>
+<li>存在的主要问题</li>
+</ol>
+<p><strong>一是国产关键组件精度和可靠性不足，部分元器件严重依赖进口。</strong> 目前，我国已能够设计并建造多种国际先进的装备级和部件级海洋科考装备，如科考船、载人潜水器、浮标潜标等，但在核心芯片、高精度姿态解算敏感元件、运动测量模块等元器件方面还严重依赖进口。这是因为国内暂未研发对标产品，已有产品无法达到装备要求的可靠性能。由于基础性能较弱，国产元器件产品在市场竞争中无法占据足够市场，应用推广不足，更加限制了优化和改进进程。此外，当前海洋科考装备研发缺乏规范化意识，使各装备之间存在搭配障碍。</p>
+<p><strong>二是海洋大数据的获取、处理和管理尚处于发展初级阶段，亟待数字化、网络化、智能化发展。</strong> 在提升海洋科考装备智能化程度的同时，解决海量数据的快速处理和传输，是亟需解决的问题。在数据管理应用方面，我国已建立多个海洋数据平台，但随着数据共享和服务需求日益增加，数据平台不仅需要汇聚多学科技术力量开展专业化的数据分析与挖掘工作，还要兼顾数据使用监管，处于应接不暇的状态。</p>
+<p><strong>五、我国海洋装备领域的关键基础性技术</strong></p>
+<p>本文结合海洋运载装备、海洋资源开发装备和海洋科考装备三大领域技术的发展现状和存在的问题，按照图1的技术凝练过程，<strong>筛选出我国海洋装备领域的10项关键基础性技术，具体如下。</strong></p>
+<p>（一）船舶低碳零碳发动机高效清洁燃烧与超低排放控制技术</p>
+<p>2023年，国际海事组织（IMO）海上环境保护委员会通过了《2023年IMO船舶温室气体减排战略》，明确国际海运温室气体在2050年前后实现净零排放，到2030年国际航运零／近零排放技术或燃料占比至少为5%，力争达到10%。在去碳化形势下，低碳／零碳替代燃料的应用日益受到航运业重视，但具体采用何种技术路径业界并未有定论。<strong>面对国际减碳需求，我国需运用科技创新大国优势，全面攻克各类低碳／零碳燃料用于船舶发动机的技术，主动参与国际标准制定，引领行业发展。</strong> 一方面，采用低碳／零碳燃料（如LNG、氢气、甲醇、氨、电池等）驱动的船舶动力装置，有效降低船舶的温室气体排放；另一方面，通过优化燃烧过程、改善燃料品质、采用排气后处理等方法，减少船舶发动机有害污染物（如颗粒物、氮氧化物、硫氧化物等）的排放强度。目前，我国在颗粒物（PM）捕集技术、低碳／零碳燃料高效燃烧及尾气氮基与非常规碳氢污染物高效脱除技术方面处于国际先进水平。我国低能耗CO2高效捕捉与存储技术与国外先进技术存在差距，但也处于较为先进的技术水平。我国在低碳／零碳燃料长寿命、高一致性喷射技术方面与国际领先水平存在明显差距，主要是由于国产关键部件工艺水平与配套产业链存在不足。</p>
+<p>（二）基于多源数据监测的全船状态反演重构和数字孪生技术</p>
+<p><strong>对船舶装备运行及后期管理过程中产生的各类数据进行充分挖掘、整合与分析，并利用现代化信息技术手段对船舶航行时内外情形进行重现，对船舶装备性能提升、危险预警等有着重要意义。</strong> 一方面，通过传感器对船体结构应力、加速度、温度等进行在线监测，实现对船体结构强度的在线评估和预警；另一方面，通过载荷数据和船体响应数据获得仿真模型，并不断精进监测数据处理分析方法，促进结构设计、结构安全评估、航行稳定性控制和智能船舶发展。目前，我国在船舶通信技术、传感器数据融合技术等方面已达到国际先进水平，但在船舶动力学模型的建立、船舶数字孪生技术的应用程度、设备能效与排放等方面，与国际先进水平存在较大差距。</p>
+<p>（三）面向船岸协同的智能运维技术</p>
+<p>智能运维的优势是可对设备进行自我检查、自我诊断等实时监督，及时发送故障预警信号，并支持故障远程报警和远程分析。<strong>借助船岸协同智能运维新模式，可降低船舶设备的运维成本、降低系统失效概率，提升船用设备和系统的可靠性与安全性。</strong> 船岸协同智能运维的主要技术需求是借助岸端的信息处理手段，支持船端设备的智能化运维，实现船岸协同，提供船舶安全性、效率和可靠性。目前，我国在远程集控智能运维技术、自主智能运维技术方面紧随国际先进水平；在基于大数据的智能故障解析技术、故障机理与迁移诊断技术方面，与国际均处于发展起步阶段。近年来，船载运维机器人技术成为研究热点，但技术成熟度较低，是我国未来需要着重发展的关键技术领域。</p>
+<p>（四）船舶工业软件关键技术</p>
+<p><strong>船舶工业软件是相关科学、理论、知识和经验的程序化封装，用于产品设计、制造、评估和管理的工具，是船舶数字化和智能化建设的“神经中枢”。</strong> 船舶工业软件自主可控是保障我国船舶产业发展安全、助力信息化建设和智能化发展的关键。当前，我国亟待攻克的技术需求，一是辅助设计软件（CAD）自主化几何内核技术，包括船舶混合式内核、参数化建模、基于船舶设计建造工程的约束解算、船舶海量模型显示等技术；二是面向不同应用场景的仿真分析评估软件（CAE）技术，包括流体评估、结构评估、优化技术、并行计算、流固耦合、网格划分等；三是针对数据共享、标准统一等生态共建需求，基于云原生的一体化平台架构及柔性集成技术。目前，船舶工业软件大多来自美国、法国、德国等国家，其软件产品约占全球市场份额的80%。我国的国产船舶工业软件普遍存在功能单一、仿真能力缺乏、可靠性不足等问题，缺少一体化、体系化、平台化、智能化的解决方案。</p>
+<p>（五）海底节点地震勘探技术</p>
+<p><strong>海洋油气勘探深度和广度的不断拓展、复杂构造和精细化勘探需求的增强以及海上生产设施的增加，都使施工难度加大。</strong> OBN地震勘探技术具备在复杂工况下灵活采集的优势，是未来勘探深层／深水和复杂构造领域的核心技术。OBN可通过水下机器人直接布放在海底，由震源船承担震源激发任务。当震源船完成所有震源点激发后，OBN采集震源信号，随后水下机器人回收OBN，下载数据并进行处理与解释。目前，国际上，该技术作业水深达3000\~4000 m，并能与拖缆地震实现联合勘探。而我国自主研发的OBN地震勘探装备（“海豚”）虽已进行试应用，但其性能指标尚不能满足深水作业要求。</p>
+<p>（六）深水水下油气开采系统关键技术</p>
+<p><strong>我国深水水下油气开采系统中有很多核心设备依赖国外进口，包括深水水下井控系统、深水浮式平台单点系泊系统和水下远程多相增压系统。</strong> 其中，深水水下井控系统是防止井喷事故、确保钻井平台安全的关键装备，可以保障深水钻井安全作业，在发生井喷、井涌时很好地控制井口压力，保证人员和设备安全；深水浮式平台单点系泊系统能使大型或超大型油轮可以系泊于海面上的一个深水“点”，并起着输送井流、电力和通信等作用，在FPSO中技术含量最高、附加值最大，掌握其设计和制造技术是实现“降本增效”的有效途径，也是国内企业加入国际FPSO总包项目的必要条件；水下远程多相增压系统可以在深水条件下将多相混合物进行增压、输送和处理，还可以应用于海底CO2输送等其他领域，提高深水油气田的生产效率和经济效益，同时降低生产成本和环境风险。目前，深水水井控系统的主要制造商有卡麦隆集团公司、美国国民油井公司、通用电器公司，在技术和市场方面处于垄断地位；深水浮式平台单点系统的关键核心设备掌握在以欧洲为主的公司手中，其技术成熟度较高；国外水下远程多相增压系统的技术成熟度较高，水下压缩机、水下分离器等前沿设备已实现商业化应用。而我国对这3种系统的关键技术研究起步较晚，距离工程化应用差距较大。</p>
+<p>（七）海上制氢及储能技术</p>
+<p><strong>近年来，欧洲、美国等国家和地区纷纷将氢能上升为国家战略，海上风电制氢将成为未来绿氢生产的主力军之一。</strong> 在全球范围内，已公布的电解水制氢项目约有1/2属于海上风电制氢，市场潜力和发展前景广阔。海上制氢及储能的主要技术需求是将海上风电机组产生的电能通过电力电子交换器后，以电解水的方式产生氢气并储存，在需要时通过燃料电池供电、供热。目前，国内外海上风电制氢技术仍以试验性示范项目为主，受制氢成本较高、氢气储运和消纳较为困难等因素限制，尚未大规模应用。</p>
+<p>（八）多机理水下高精度定位与高速率通信技术</p>
+<p>水声是目前水下定位和通信的最主要媒介，但声学定位和通信在安全性与传输速率上存在局限性。<strong>基于多机理的定位和通信技术，有望提高定位精度和通信速率，以适应水下科考装备动态网络构建，满足海洋立体观测网的需求。</strong> 未来需突破“声光磁”原理、新型原理应用等问题，实现基于“声光磁”原理的单装备／组网装备的全海深高精度定位和高速率通信，探索依托宇宙线缪子的水下定位和水下量子通信的机理及工程应用。国外在该领域的技术积累较为丰富，我国现处在“跟跑”阶段。我国已开展全海深潜水器声学设备研制，部分产品已达到国际先进水平。在电磁、水下光学等领域，我国以基础研究和初步的应用研究为主，如水下航行器集群作业、海洋立体观测网异构组网的定位和通信技术处于理论研究层面；在“声光磁”多种方法耦合方面的相关研究较少，如关于缪子定位和水下量子通信的研究处于基础研究阶段，需要更长期的布局和投入。</p>
+<p>（九）声场 ‒ 光场 ‒ 电磁场联合传感机理与工程应用技术</p>
+<p>传感器是我国海洋科考装备发展过程中最受限制的方面。<strong>国产传感器面临可靠性和精度不足问题，亟需开展针对不同场（声场、光场和电磁场）观测的传感器联合传感机理研究，开发高精度、快速响应的新型海洋传感器，实现高效、稳定的海洋观测。</strong> 当前的主要技术需求是通过突破声场 ‒ 光场 ‒ 电磁场联合传感耦合机理和融合组网技术，设计具有小体积、多参数、高可靠性、耐污损等特性的传感器，实现多尺度、宽覆盖、适应极端环境的新型海洋声场、光场、电磁场环境监测，提高国产传感器大深度稳定作业能力。我国在中低端海洋传感器方面的技术成熟度较高，但高端海洋传感器与国外相比差距较大。</p>
+<p>（十）海洋科考装备人工智能框架和算法模型技术</p>
+<p>半导体硬件、智能算法软件、海量高质量数据和稳定高效能源供应等是海洋科考装备智能化的重要基础。近年来，以深度学习为代表的人工智能算法快速发展，成为推动海洋科考装备智能化转型的强劲动力。<strong>主要技术需求是通过整合海洋科考观测和装备运行数据，构造新型人工智能框架和算法模型，搭建适用于海洋科考装备的各使用场景智能模型，实现海洋科考观测和装备大数据的采集、整合、规范获取，完成装备的智能化升级。</strong> 目前，以美国为代表的西方发达国家在数据整合、算法框架、应用模型架构等方面处于领先地位。虽然我国已在人工智能方面取得许多成绩，技术水平进步快速，但目前使用的人工智能框架大多基于国外模型开发。面向未来，从算法先进性、稳定性和安全性等方面考虑，应当发展我国自主可控的从框架到应用程序的人工智能技术，用于支持未来海洋科考装备的智能化升级。</p>
+<p><strong>六、海洋强国目标下我国海洋装备关键基础性技术的发展目标、重点任务及保障措施</strong></p>
+<p>（一）发展目标与发展路线图</p>
+<p><strong>海洋装备关键基础性技术的总体发展目标是面向建设海洋强国，以绿色、智能、深海、极地为着力点，依靠基础性技术水平的提升，解决“从0到1”的问题，助力我国海洋科技和产业发展整体水平由“跟跑”为主向“领跑”转变，实现从中低端走向中高端，支撑高质量发展。</strong> 在海洋运载装备领域，绿色化、智能化基础性技术快速发展，支撑高端配套产品发展，促进产业转型升级，助力实现综合竞争力国际领先。在海洋资源开发装备领域，攻关3000 m深水油气开发基础性技术，实现关键设备和核心技术的国产化，利用智能化、低碳化技术赋能海上油田发展。在海洋科考装备领域，实现能源、定位、通信、传感、人工智能等基础性技术的全面发展，在我国海域实现实时立体观测，在极地组建高精度的立体观测网，在深海长期驻留并开展科学试验，在重点关注的海域能够快速组网获取科考数据，达到国际领先水平。</p>
+<p><strong>到2030年：在海洋运载装备领域，建立低碳能源动力技术体系，建立全船状态反演重构的数字化技术体系，提升船岸协同的智能运维系统集成与服务技术水平</strong>，突破船舶工业软件CAD几何内核技术、CAE评估技术、一体化平台架构及柔性集成技术等关键核心技术，国内外软件同时使用并相互验证。在海洋资源开发装备领域，形成深水水下防喷器维保自主能力，形成单点系泊系统研发及实验验证能力，突破1500 m水下多相增压技术，研制海上电解水制氢及储能技术和装备。在海洋科考装备领域，研制基于声场、光场、磁场的全海深水下高精度定位与高速率通信装置，在宇宙线缪子、量子等新型定位与通信技术基础研究方面取得进展，搭建海洋大数据张合架构，并基于现有模型开展海洋科考装备的智能化升级。</p>
+<p><strong>到2035年：在海洋运载装备领域，实现船舶低碳／零碳发动机与排放控制关键核心技术的自主可控，基于多源数据监测的全船状态反演重构和数字孪生技术实现行业应用</strong>，形成船岸协同的智能运维龙头企业和品牌，国产船舶工业软件覆盖研发、设计、制造、管理、服务保障等全业务流程并实现部分国产化替代。在海洋资源开发装备领域，实现OBN地震勘探技术作业水深超过1500 m，海上制氢及储能技术在深远海进行工程示范。在海洋科考装备领域，实现全海深水下高精度定位和高速率通信装备产业化，缪子、量子等新型定位与通信技术实现应用试验，形成大深度稳定作业能力，研制声场、光场、磁场联合传感器，国产传感器使用占主导，搭建海洋科考新型人工智能算法框架。</p>
+<p><strong>到2050年：在海洋运载装备领域，全面实现低碳／零碳绿色化转型，基于多源数据监测的全船状态反演重构和数字孪生技术达到国际领先水平</strong>，全面实现海洋智能航行少人／无人化，船舶工业软件实现国产化替代、引领我国船舶智能制造发展。在海洋资源开发装备领域，OBN地震勘探技术作业水深达到3000 m并形成完整产业链，突破单点系统设计技术、核心部件和配套全面国产化大型化，3000 m深水井控装备、水下多相增压技术实现国产化，海上风电制氢及储能实现规模化应用。在海洋科考装备领域，全海洋观测网高端装备实现产业化，缪子、量子等新型定位与通信技术实现工程应用，声场、光场、磁场联合传感技术达到全水深、全海域稳定作业水平，国产传感器占领高端市场，应用新型人工智能模型进行海洋科考装备智能化升级。</p>
+<p><strong>我国海洋装备关键基础性技术发展路线图如图2所示。</strong></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/ibdH4AklSCOTxIETiaK9z27DrYQO7IgI9NOjicGNPKbmlc75VvAEhsjuGjaCWib1rjA6gvfiaWmoM50oxibdVrYIX5PA/640?wx_fmt=png\&amp;from=appmsg\&amp;tp=wxpic\&amp;wxfrom=10005\&amp;wx_lazy=1#imgIndex=3" /></p>
+<p>图2　海洋装备关键基础性技术发展路线图</p>
+<p>（二）重点任务</p>
+<ol>
+<li>发展绿色清洁、智能高效的海洋运载装备体系</li>
+</ol>
+<p><strong>一是加快船舶绿色零碳动力技术研究与设备研发。</strong> 围绕船舶零碳燃料“制储输用”模块化设计和安全管控技术、船舶灵活燃料发动机技术及装备、船舶氢燃料发动机技术及装备、船舶超低排放控制与碳捕集技术及装备进行攻关。研发融合多变量解耦算法和稳压控制逻辑的高精度零碳燃料储供系统，形成零碳燃料储供系统技术报告和系统样机。制定零碳燃料动力船舶尾气超低排放控制技术路线，提出零碳燃料高效与清洁燃烧策略，研发船舶尾气污染物脱除治理系统与高分辨率监测监管装备，形成适应于典型海船与河船的核心绿色动力装备集成应用方案。</p>
+<p><strong>二是加快自主航行技术研究与设备研发。</strong> 围绕船舶自主航行总体构架与技术路线、面向船舶自主航行的智能感知技术、智能集成与控制技术、智能设备与系统研发、虚实融合的船舶自主航行综合测试验证体系、沿海内河船舶自主航行系统进行深入研究。建立环境感知、路径规划、避碰决策、自主航行控制等共性关键技术的核心算法模型库，研发功能模块化、接口标准化的船舶自主航行系统，形成软硬件一体化的技术集成应用方案，发布沿海内河船舶自主航行技术标准指南和发展白皮书。</p>
+<p><strong>三是加强船舶工业软件开发、验证与推广。</strong> 研发适用于船舶工业小批量、多品种、工艺流程复杂等特点的三维设计CAD软件，实现三维几何内核求解器自主可控。围绕船舶结构与流体两大领域分析评估需求，研发船舶分析评估CAE软件，在计算稳定性、可靠性与效率方面达到国外软件同等水平。围绕船舶工业数字化与智能化建设，针对全生命周期数据流通、动态调整与集成应用，研发全生命周期数据管理软件，建设船舶工业软件一体化平台和集成验证与技术服务平台。</p>
+<ol>
+<li>突破3000米级深海油气勘探开发和海上油气及新能源多能融合关键技术</li>
+</ol>
+<p><strong>一是加快3000米级超深水油气开发关键技术攻关。</strong> 在勘探装备方面，研究高性能检波器、专用芯片等关键核心技术，实现自主成套物探装备技术产业化、应用规模化，实现进口替代；在钻井装备方面，研究深水钻机设备成套设计和制造技术，实现深水钻机所有核心设备国产化；在浮式生产技术方面，研究3000 m水深各类浮式生产装置系统的核心关键部件制造与研发技术，构建具有自主知识产权的设计、建造、安装、运维核心技术体系，达到国际先进水平；在水下生产技术方面，形成3000 m水深水下生产系统技术体系，掌握水下增压泵、水下压缩机、水下分离器、水下紧凑式管汇等的设计技术以及水下供配电系统设计技术。</p>
+<p><strong>二是加快布局海上油气及新能源多能融合智能生产关键技术。</strong> 具体包括多种新能源设备的选型、布局、安装、运行和维护技术，与油气生产设备的耦合、协调和控制技术，基于大数据、云计算、人工智能等技术的智能监测、诊断、优化和调度技术。形成一套完整的海上油气及新能源多能融合智能生产基础理论框架和技术体系，包括理论模型、数值模拟方法、技术经济分析方法、风险评估方法等。实施海上油气及新能源多能融合智能生产示范工程，推广“海上风+光+气”“海上风电+油气勘探开发”等模式。</p>
+<ol>
+<li>打造近海实时监测、深海驻留考察、快速部署组网的海洋科考与观测能力</li>
+</ol>
+<p><strong>一是促进海洋科考装备的绿色化、智能化升级。</strong> 加快绿氢和绿氨在海洋科考装备中的应用，包括直接作为燃料用于提供科考船等大型科考平台的动力、制成燃料电池作为小型科考装备的自持式电源。研制稳定可靠的高端海洋传感器，解决传感器材料加工、有效封装、防污涂料涂层、高耐久度敏感材料制备、原始输出数据在线质量控制、多参数解调等技术问题，开发基于声场、光场、电磁场联合传感机理的新型传感器，进一步提升海洋科考数据的获取能力。突破新型人工智能框架，并以此为基础，搭建适用于各海洋科考作业场景和需求的人工智能模型。</p>
+<p><strong>二是加快全海域长期海洋科考装备研发。</strong> 开发安全可靠的小堆、微堆核动力装备，大幅提升海洋科考装备的动力能级和续航能力。探索多种原理组合的导航定位和通信技术，以应对不断复杂的科考装备网络，集群化的科考作业模式，满足广域、长期、多平台组网的高精度定位和高速率传输需求。研究通信、导航、定位一体化技术，改善海洋科考装备通信和导航定位在信息交互、带宽利用率、资源限制等问题。此外，关注前沿科学领域，基于缪子、量子等科学技术在定位和通信上的应用。</p>
+<p>（三）保障措施</p>
+<ol>
+<li>提升海洋装备基础性技术研究定位，加强技术创新顶层设计</li>
+</ol>
+<p><strong>进一步重视基础性技术研究对新时期海洋强国战略推进的重大价值，研究制定海洋装备关键基础性技术研究与发展中长期规划</strong>，明确海洋装备基础性技术研发的战略定位、重点任务，提出海洋运载、海洋资源开发、海洋科考等重点领域的共性基础技术共享平台建设，提出技术创新网络融合路线图与时间表，强化培育海洋装备领域自主可控产品与技术体系。进一步重视海洋学科、人才中长期稳定发展，建议研究和制定海洋装备技术基础学科建设与人才培养指导意见，为我国海洋装备技术研究提供稳定的原始动力。</p>
+<ol>
+<li>推动海洋装备基础性技术创新的多维度协作体系建设</li>
+</ol>
+<p><strong>协调涉海基础技术研究机构、高等院校、企业、咨询及金融机构，推进海洋技术研发与海洋装备产品制造创新链发展和创新集群培育</strong>，培育具有中国特色和国际影响力的涉海科技创新联盟。完善我国海洋工程科技、教育、产业综合体建设及分工布局优化，培育分工明确和协作密切的海洋运载、海洋资源开发、海洋科考等多海洋科创产业综合体。整合海洋领域技术研发创新平台，推进与海洋工程、航空与航天运载、陆域交通、网络通信等工程领域的跨部门基础技术研发与应用对话交流的“超级平台”建设，建构“陆海空天网”科技创新巨系统。</p>
+<ol>
+<li>推动我国主导的海洋技术与装备走向国际市场</li>
+</ol>
+<p><strong>充分借鉴我国在航空、航天、高速铁路、通信、新能源汽车等领域已有的创新驱动型国际化经验，兼容与适应国际已有海洋技术标准体系</strong>，逐步培育具有我国自主知识产权的海洋装备品牌与技术规范体系，以积极主动姿态和行动开展国际交流与合作，打破国际技术封锁，实现我国高质量海洋装备“走出去”愿景。引导海洋装备产业积极融入国家“一带一路”建设，参与“金砖国家”扩容形势下我国海洋工程技术与伙伴国家的高层次交流与合作。</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      研究知识库 &copy; 2026
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/lxz-123435/research-knowledge-base" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "toc.integrate", "tags"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": true, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
